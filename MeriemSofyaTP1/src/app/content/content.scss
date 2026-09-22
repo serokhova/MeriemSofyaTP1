@@ -1,0 +1,22 @@
+.content {
+  box-sizing: border-box;
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  gap: 10px;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  border: none;
+  cursor: pointer;
+}

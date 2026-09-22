@@ -1,0 +1,8 @@
+<div class="content">
+  <div class="logo">
+    @for (color of colors; track color) {
+      <button type="button" class="square" [style.background-color]="color" (click)="select(color)">
+      </button>
+    }
+  </div>
+</div>
