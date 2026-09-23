@@ -1,7 +1,8 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { NgClass } from '@angular/common';
 
 @Component({
-  imports: [],
+  imports: [NgClass],
   selector: 'app-content',
   styleUrl: './content.scss',
   templateUrl: './content.html',

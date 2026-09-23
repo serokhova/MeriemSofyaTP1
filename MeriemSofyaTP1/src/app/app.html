@@ -1,5 +1,5 @@
 <app-header />
-<main class="main">
-  <app-content [colors]="colors" (colorSelected)="onColorSelected($event)"/>
+<main class="main" [ngClass]="selectedColor">
+  <app-content [colors]="colors" (colorSelected)="onColorSelected($event)" />
 </main>
 <app-footer />
